@@ -1,13 +1,11 @@
 import './App.css'
-import Body from './Components/body';
-import Principal from './Components/principal';
+import TitleHome from './Components/home';
 
 function Home() {
 
   return (
     <>
-    <Principal></Principal>
-    <Body></Body>
+    <TitleHome></TitleHome>
     </>
   )
 }

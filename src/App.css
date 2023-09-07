@@ -1,6 +1,63 @@
+/* ----------------------ROOT---------------------- */
+:root {
+  width: 100%;
+  height: 100%;
+  background-color: #68378e
+}
+
+
 /* ----------------------HOME---------------------- */
+/* ----------------------NAV---------------------- */
+#welcome {
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#title {
+  width: 100vw;
+  margin: 0%;
+  font-size: 180%;
+  display: flex;
+  justify-content: center;
+  color: #fff0ff;
+}
+
+#initial {
+  background-color: #68378e;
+  width: 100%;
+  height: 100%;
+}
 
 
+/* ----------------------DROP---------------------- */
+#drop {
+  width: 100vw;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu-text {
+  background-color: #fff0ff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 140%;
+}
 
 
+/* ----------------------BODY---------------------- */
+#body-homepage {
+  height: fit-content;
+  background-image: url('src/Images/p-bat-logo.png');
+  background-color: #68378e;
+  display: flex;
+  justify-content: center;
+}
 
+
+/* ----------------------FOOTER---------------------- */
