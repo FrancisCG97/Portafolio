@@ -2,11 +2,19 @@
 :root {
   width: 100%;
   height: 100%;
-  background-color: #68378e
 }
 
 
 /* ----------------------HOME---------------------- */
+body {
+  background-color: #68378e;
+  background-image: url('src/Images/p-bat-logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
 /* ----------------------NAV---------------------- */
 #welcome {
   width: 100vw;
@@ -29,7 +37,6 @@
 }
 
 #initial {
-  background-color: #68378e;
   width: 100%;
   height: 100%;
 }
@@ -38,26 +45,53 @@
 /* ----------------------DROP---------------------- */
 #drop {
   width: 100vw;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
   display: flex;
   justify-content: flex-end;
 }
 
+#btn-drop {
+  position: fixed;
+  z-index: 2;
+}
+
 #menu-text {
-  background-color: #fff0ff;
+  background-color: #ebcff5;
   font-family: 'Raleway', sans-serif;
-  font-size: 140%;
+  font-size: 120%;
+  font-weight: bold;
 }
 
 
 /* ----------------------BODY---------------------- */
-#body-homepage {
+#about-me {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  opacity: 80%;
+}
+
+#body-about {
   height: fit-content;
-  background-image: url('src/Images/p-bat-logo.png');
-  background-color: #68378e;
+  background-color: #b57edc;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
 }
 
 
-/* ----------------------FOOTER---------------------- */
+/* ----------------------PORTFOLIO---------------------- */
+#title-portfolio {
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff0ff;
+}
+
+
