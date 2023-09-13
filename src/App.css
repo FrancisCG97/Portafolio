@@ -1,7 +1,7 @@
 /* ----------------------ROOT---------------------- */
 :root {
   width: 100%;
-  height: 100%;
+  height: fit-content;
 }
 
 
@@ -18,6 +18,7 @@ body {
 /* ----------------------NAV---------------------- */
 #welcome {
   width: 100vw;
+  margin-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 100%;
@@ -34,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   color: #fff0ff;
+  text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
 }
 
 #initial {
@@ -66,7 +68,7 @@ body {
 
 /* ----------------------BODY---------------------- */
 #about-me {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   opacity: 80%;
@@ -88,10 +90,28 @@ body {
   width: 100vw;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 100%;
+  font-size: 180%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
   color: #fff0ff;
+  text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
 }
+
+#projects-cards {
+  /* width: 100vw; */
+  height: auto;
+  /* margin: 0%; */
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+
+
+
+
+
 
 
