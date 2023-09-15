@@ -59,19 +59,16 @@ const TitleHome = () => {
                 </nav>
             </section>
 
-            <section className="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-6" >
+            <section id="projects-cards" className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6" >
+                <div id="projects" className="col-10 col-sm-1 col-md-2 col-lg-4 col-xl-4">
 
-                <div id="projects-cards" className="col-10 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-
-                    <div className="col">
+                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#ruletaModal">
                         <div className="card">
                             <div className="card-body">
-                                <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#ruletaModal">
-                                    <h5 className="card-title"> Ruleta al azar </h5>
-                                </button>
+                                <h5 className="card-title"> Ruleta al azar </h5>
                             </div>
                         </div>
-                    </div>
+                    </button>
 
                     <div className="modal fade" id="ruletaModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
@@ -93,15 +90,13 @@ const TitleHome = () => {
                     </div>
 
 
-                    <div className="col">
+                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#moviefyModal">
                         <div className="card">
                             <div className="card-body">
-                                <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#moviefyModal">
-                                    <h5 className="card-title"> Moviefy </h5>
-                                </button>
+                                <h5 className="card-title"> Moviefy </h5>
                             </div>
                         </div>
-                    </div>
+                    </button>
 
                     <div className="modal fade" id="moviefyModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
@@ -123,15 +118,13 @@ const TitleHome = () => {
                     </div>
 
 
-                    <div className="col">
+                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#kittybookModal">
                         <div className="card">
                             <div className="card-body">
-                                <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#kittybookModal">
-                                    <h5 className="card-title"> Social Network: Kittybook </h5>
-                                </button>
+                                <h5 className="card-title"> Social Network: Kittybook </h5>
                             </div>
                         </div>
-                    </div>
+                    </button>
 
 
                     <div className="modal fade" id="kittybookModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -154,15 +147,14 @@ const TitleHome = () => {
                     </div>
 
 
-                    <div className="col">
+                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#dataGhibliLoversModal">
                         <div className="card">
                             <div className="card-body">
-                                <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#dataGhibliLoversModal">
-                                    <h5 className="card-title"> Data Ghibli Lovers </h5>
-                                </button>
+                                <h5 className="card-title"> Data Ghibli Lovers </h5>
                             </div>
                         </div>
-                    </div>
+                    </button>
+
                     <div className="modal fade" id="dataGhibliLoversModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
                             <div className="modal-content">

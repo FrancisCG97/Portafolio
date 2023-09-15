@@ -86,6 +86,15 @@ body {
 
 
 /* ----------------------PORTFOLIO---------------------- */
+
+/* ----------------------PROJECTS---------------------- */
+.card-body {
+  display: flex;
+  justify-content: center;
+  background-color: #ebcff5;
+  font-family: 'Raleway', sans-serif;
+}
+
 #title-portfolio {
   width: 100vw;
   font-family: 'Raleway', sans-serif;
@@ -100,18 +109,44 @@ body {
 }
 
 #projects-cards {
-  /* width: 100vw; */
+  width: 100%;
   height: auto;
-  /* margin: 0%; */
+  margin: 0%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+
+#project-btn {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0%;
+  border-style: solid;
+  border-color: #4b1c71;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
 }
 
 
 
-
-
+/* ----------------------MODAL---------------------- */
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: #ebcff5;
+  border-style: solid;
+  border-color: #d6aeeb;
+  border-width: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
 
 
 
