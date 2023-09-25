@@ -13,22 +13,25 @@ const TitleHome = () => {
                             Menu
                         </button>
                         <ul id="menu-text" className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/"> Home </a></li>
-                            <li><a className="dropdown-item" href="#"> About me </a></li>
-                            <li><a className="dropdown-item" href="#"> Portfolio </a></li>
-                            <li><a className="dropdown-item" href="#"> Contact </a></li>
+                            <li><a className="dropdown-item" href="#home"> Home </a></li>
+                            <li><a className="dropdown-item" href="#about-me"> About me </a></li>
+                            <li><a className="dropdown-item" href="#portfolio"> Portfolio </a></li>
+                            <li><a className="dropdown-item" href="#contact-me"> Contact </a></li>
                         </ul>
                     </div>
                 </div>
-                <div id="initial">
-                    <nav className="navbar">
-                        <div id="welcome" className="container-fluid">
-                            <p id="title" className="navbar-brand"> I{`'`}m Francis Carrasco </p>
-                            <p id="title" className="navbar-brand"> Welcome to my Portfolio! </p>
-                        </div>
-                    </nav>
-                </div>
+                <section id="home">
+                    <div id="initial">
+                        <nav className="navbar">
+                            <div id="welcome" className="container-fluid">
+                                <p id="title" className="navbar-brand"> I{`'`}m Francis Carrasco </p>
+                                <p id="title" className="navbar-brand"> Welcome to my Portfolio! </p>
+                            </div>
+                        </nav>
+                    </div>
+                </section>
             </section>
+
             <section id="about-me">
                 <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
                     <div className="card">
@@ -50,132 +53,190 @@ const TitleHome = () => {
                 </div>
             </section>
 
-            <section className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+            <section id="portfolio" className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
                 <nav id="t-portfolio" className="navbar">
                     <div id="title-portfolio" className="container-fluid">
                         <p> Take a look to my </p>
                         <p> ⬇ Projects! ⬇ </p>
                     </div>
                 </nav>
+
+                <section id="projects-cards" className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+                    <div id="projects" className="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-4">
+                        <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#ruletaModal">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title"> Ruleta al azar </h5>
+                                </div>
+                            </div>
+                        </button>
+
+                        <div className="modal fade" id="ruletaModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h1 className="modal-title fs-5" id="exampleModalLabel"> Ruleta al azar </h1>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <img src="src/Images/ruleta-md.PNG" className="card-img-top" alt="..."></img>
+                                        <p className="card-text"> Ruleta al azar it{`'`}s a webpage in which the user can enter information through a file, and at the end of the roulette spin, it returns the winning object. </p>
+                                        <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Vite and Vercel. </p>
+                                    </div>
+                                    <div className="modal-footer">
+                                        Do you want to see my project?
+                                        <br></br>
+                                        <a href="https://ruleta-al-azar.vercel.app" className="card-text">
+                                            Click me!
+                                        </a>
+                                        <br></br>
+                                        <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#moviefyModal">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title"> Moviefy </h5>
+                                </div>
+                            </div>
+                        </button>
+
+                        <div className="modal fade" id="moviefyModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h1 className="modal-title fs-5" id="exampleModalLabel"> Moviefy </h1>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <img src="src/Images/moviefy-home-xs.PNG" className="card-img-top" alt="..."></img>
+                                        <p className="card-text"> Moviefy it{`'`}s a webpage inspired in Internet Movie Database -or IMDB- where users can search information about movies, including: title, poster, original languaje and more. </p>
+                                        <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Axios, Vite and Vercel. </p>
+                                    </div>
+                                    <div className="modal-footer">
+                                        Do you want to see my project?
+                                        <br></br>
+                                        <a href="https://movie-challenge-7ea8tuxub-franciscg97.vercel.app" className="card-text">
+                                            Click me!
+                                        </a>
+                                        <br></br>
+                                        <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#kittybookModal">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title"> Social Network: Kittybook </h5>
+                                </div>
+                            </div>
+                        </button>
+
+                        <div className="modal fade" id="kittybookModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h1 className="modal-title fs-5" id="exampleModalLabel"> Kittybook </h1>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <img src="src/Images/login-kb-xs.PNG" className="card-img-top" alt="..."></img>
+                                        <p className="card-text"> Kittybook it{`'`}s a Social Network by -and for- catlovers. Here you can have an user and Create, Read, Update and Delete posts. </p>
+                                        <p className="card-text"> This project was developed with HTML, JavaScript in Single Page Application -or SPA-, CSS, Firebase Auth and Firestore Database. </p>
+                                    </div>
+                                    <div className="modal-footer">
+                                        Do you want to see my project?
+                                        <br></br>
+                                        <a href="https://sn9-kittybook.firebaseapp.com" className="card-text">
+                                            Click me!
+                                        </a>
+                                        <br></br>
+                                        <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#dataGhibliLoversModal">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title"> Data Ghibli Lovers </h5>
+                                </div>
+                            </div>
+                        </button>
+
+                        <div className="modal fade" id="dataGhibliLoversModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h1 className="modal-title fs-5" id="exampleModalLabel"> Data Ghibli Lovers </h1>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <img src="src/Images/studio-g-home.PNG" className="card-img-top" alt="..."></img>
+                                        <p className="card-text"> Data Ghibli Lovers it{`'`}s a webpage where users can find information about Studio Ghibli history, characters or animations. </p>
+                                        <p className="card-text"> This project was developed with HTML, JavaScript and CSS. </p>
+                                    </div>
+                                    <div className="modal-footer">
+                                        Do you want to see my project?
+                                        <br></br>
+                                        <a href="https://franciscg97.github.io/Data-Ghibli-Lovers---Data-Lovers/" className="card-text">
+                                            Click me!
+                                        </a>
+                                        <br></br>
+                                        <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </section>
 
-            <section id="projects-cards" className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6" >
-                <div id="projects" className="col-10 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-
-                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#ruletaModal">
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title"> Ruleta al azar </h5>
-                            </div>
-                        </div>
-                    </button>
-
-                    <div className="modal fade" id="ruletaModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog">
-                            <div className="modal-content">
-                                <div className="modal-header">
-                                    <h1 className="modal-title fs-5" id="exampleModalLabel"> Ruleta al azar </h1>
-                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div className="modal-body">
-                                    <img src="src/Images/ruleta-md.PNG" className="card-img-top" alt="..."></img>
-                                    <p className="card-text"> Ruleta al azar it{`'`}s a webpage in which the user can enter information through a file, and at the end of the roulette spin, it returns the winning object. </p>
-                                    <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Vite and Vercel. </p>
-                                </div>
-                                <div className="modal-footer">
-                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
+            <section id="contact-me" className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+                <nav id="t-contact" className="navbar">
+                    <div id="title-contact" className="container-fluid">
+                        <p> Contact me 📩 </p>
                     </div>
+                </nav>
 
-
-                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#moviefyModal">
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title"> Moviefy </h5>
-                            </div>
-                        </div>
-                    </button>
-
-                    <div className="modal fade" id="moviefyModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog">
-                            <div className="modal-content">
-                                <div className="modal-header">
-                                    <h1 className="modal-title fs-5" id="exampleModalLabel"> Moviefy </h1>
-                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div className="modal-body">
-                                    <img src="src/Images/moviefy-home-xs.PNG" className="card-img-top" alt="..."></img>
-                                    <p className="card-text"> Moviefy it{`'`}s a webpage inspired in Internet Movie Database -or IMDB- where users can search information about movies, including: title, poster, original languaje and more. </p>
-                                    <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Axios, Vite and Vercel. </p>
-                                </div>
-                                <div className="modal-footer">
-                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
+                <section id="contact" className="col-12 col-sm-12 col-md-4 col-lg-8 col-xl-8">
+                    <div id="contact-link" className="card-body">
+                        <a id="linkedin" href="https://www.linkedin.com/in/francis-carrasco-gonzalez" className="card-link"> <img id="logo-linkedin" src="src/Images/logo-link.png"></img>
+                            LinkedIn
+                        </a>
+                        <a id="github" href="https://github.com/FrancisCG97" className="card-link"> <img id="logo-gith" src="src/Images/github.png"></img>
+                            GitHub:
+                        </a>
+                        <p id="mail" className="card-link"> <img id="logo-mail" src="src/Images/logo-mail.png"></img>
+                            f.carrasco.g.97@gmail.com
+                        </p>
                     </div>
-
-
-                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#kittybookModal">
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title"> Social Network: Kittybook </h5>
-                            </div>
-                        </div>
-                    </button>
-
-
-                    <div className="modal fade" id="kittybookModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog">
-                            <div className="modal-content">
-                                <div className="modal-header">
-                                    <h1 className="modal-title fs-5" id="exampleModalLabel"> Kittybook </h1>
-                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div className="modal-body">
-                                    <img src="src/Images/login-kb-xs.PNG" className="card-img-top" alt="..."></img>
-                                    <p className="card-text"> Kittybook it{`'`}s a Social Network by -and for- catlovers. Here you can have an user and Create, Read, Update and Delete posts. </p>
-                                    <p className="card-text"> This project was developed with HTML, JavaScript in Single Page Application -or SPA-, CSS, Firebase Auth and Firestore Database. </p>
-                                </div>
-                                <div className="modal-footer">
-                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#dataGhibliLoversModal">
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title"> Data Ghibli Lovers </h5>
-                            </div>
-                        </div>
-                    </button>
-
-                    <div className="modal fade" id="dataGhibliLoversModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog">
-                            <div className="modal-content">
-                                <div className="modal-header">
-                                    <h1 className="modal-title fs-5" id="exampleModalLabel"> Data Ghibli Lovers </h1>
-                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div className="modal-body">
-                                    <img src="src/Images/studio-g-home.PNG" className="card-img-top" alt="..."></img>
-                                    <p className="card-text"> Data Ghibli Lovers it{`'`}s a webpage where users can find information about Studio Ghibli history, characters or animations. </p>
-                                    <p className="card-text"> This project was developed with HTML, JavaScript and CSS. </p>
-                                </div>
-                                <div className="modal-footer">
-                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                </section>
             </section>
+
+            <section className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <ul className="nav">
+                    <li className="nav-item">
+                        <a className="nav-link" href="#home"> Home </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#about-me"> About me </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#portfolio"> Portfolio </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#contact-me"> Contact </a>
+                    </li>
+                </ul>
+            </section>
+
         </>
     )
 }

@@ -4,8 +4,6 @@
   height: fit-content;
 }
 
-
-/* ----------------------HOME---------------------- */
 body {
   background-color: #68378e;
   background-image: url('src/Images/p-bat-logo.png');
@@ -15,6 +13,7 @@ body {
 }
 
 
+/* ----------------------HOME---------------------- */
 /* ----------------------NAV---------------------- */
 #welcome {
   width: 100vw;
@@ -43,7 +42,6 @@ body {
   height: 100%;
 }
 
-
 /* ----------------------DROP---------------------- */
 #drop {
   width: 100vw;
@@ -65,7 +63,6 @@ body {
   font-weight: bold;
 }
 
-
 /* ----------------------BODY---------------------- */
 #about-me {
   margin-top: 20px;
@@ -86,7 +83,6 @@ body {
 
 
 /* ----------------------PORTFOLIO---------------------- */
-
 /* ----------------------PROJECTS---------------------- */
 .card-body {
   display: flex;
@@ -133,8 +129,6 @@ body {
   flex-direction: column;
 }
 
-
-
 /* ----------------------MODAL---------------------- */
 .modal-content,
 .modal-header,
@@ -148,5 +142,72 @@ body {
   font-weight: 900;
 }
 
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+#close {
+  background-color: #8653ad;
+}
+
+
+/* ----------------------CONTACT---------------------- */
+/* ----------------------TITLE---------------------- */
+#title-contact {
+  width: 100vw;
+  margin-top: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 180%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: #fff0ff;
+  text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
+}
+
+/* ----------------------LIST---------------------- */
+#contact {
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#contact-link{
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: #4b1c71;
+  border-width: 3px;
+}
+
+#linkedin,
+#github {
+  padding-right: 5px;
+}
+
+#mail {
+  padding-right: 15px;
+}
+
+#logo-linkedin,
+#logo-gith {
+  width: 100px;
+  height: 100px;
+}
+
+#logo-mail {
+  width: 75px;
+  height: 75px;
+  margin: 0px 12.5px;
+}
 
