@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   background-color: #68378e;
   background-image: url('src/Images/p-bat-logo.png');
   background-repeat: no-repeat;
@@ -15,31 +16,30 @@ body {
 
 /* ----------------------HOME---------------------- */
 /* ----------------------NAV---------------------- */
-#welcome {
+#welcome,
+#title {
   width: 100vw;
-  margin-top: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 100%;
   display: flex;
   justify-content: center;
+}
+
+#welcome {
+  margin-top: 20px;
   flex-direction: column;
   flex-wrap: nowrap;
+  font-weight: 700;
+  font-size: 100%;
 }
 
 #title {
-  width: 100vw;
   margin: 0%;
   font-size: 180%;
-  display: flex;
-  justify-content: center;
   color: #fff0ff;
   text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
 }
 
 #initial {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
 }
 
 /* ----------------------DROP---------------------- */
@@ -57,49 +57,70 @@ body {
 }
 
 #menu-text {
-  background-color: #ebcff5;
-  font-family: 'Raleway', sans-serif;
   font-size: 120%;
-  font-weight: bold;
+  font-weight: 600;
+  background-color: #ebcff5;
+  border-style: solid;
+  border-color: #4b1c71;
+  border-width: 3px;
+}
+
+#drop-item {
+  font-size: 100%;
+  font-weight: 600;
 }
 
 /* ----------------------BODY---------------------- */
-#about-me {
-  margin-top: 20px;
+#about-me,
+#body-about {
   display: flex;
   justify-content: center;
-  opacity: 80%;
+}
+
+#about-me {
+  margin-top: 20px;
+  opacity: 90%;
 }
 
 #body-about {
   height: fit-content;
+  font-weight: 900;
+  font-size: 20px;
   background-color: #b57edc;
   color: black;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 5px;
 }
 
 
 /* ----------------------PORTFOLIO---------------------- */
 /* ----------------------PROJECTS---------------------- */
+h5 {
+  font-size: 150%;
+  font-weight: 900;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
 .card-body {
   display: flex;
   justify-content: center;
+  font-weight: 900;
   background-color: #ebcff5;
-  font-family: 'Raleway', sans-serif;
 }
 
 #title-portfolio {
   width: 100vw;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 180%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
+  font-weight: 700;
+  font-size: 180%;
   color: #fff0ff;
   text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
 }
@@ -130,16 +151,35 @@ body {
 }
 
 /* ----------------------MODAL---------------------- */
+h1 {
+  font-weight: 900;
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  font-weight: 900;
+  color: #4b1c71;
+}
+
+.card-text {
+  font-size: 140%;
+}
+
 .modal-content,
 .modal-header,
 .modal-body,
 .modal-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 900;
   background-color: #ebcff5;
   border-style: solid;
   border-color: #d6aeeb;
   border-width: 3px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
 }
 
 .modal-footer {
@@ -150,6 +190,9 @@ body {
 }
 
 #close {
+  width: 30%;
+  height: auto;
+  font-weight: 600;
   background-color: #8653ad;
 }
 
@@ -159,55 +202,80 @@ body {
 #title-contact {
   width: 100vw;
   margin-top: 25px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 180%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
+  font-weight: 700;
+  font-size: 180%;
   color: #fff0ff;
   text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
 }
 
 /* ----------------------LIST---------------------- */
-#contact {
-  width: 100vw;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#contact-link{
+#contact-link {
   margin: 0px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 8px;
+  align-items: flex-start;
   flex-wrap: wrap;
+  font-weight: 300;
+  border-radius: 8px;
   border-style: solid;
   border-color: #4b1c71;
   border-width: 3px;
 }
 
 #linkedin,
+#github,
+#mail {
+  font-weight: 900;
+  color: #4b1c71;
+}
+
+#linkedin,
 #github {
   padding-right: 5px;
+  font-size: 125%;
 }
 
 #mail {
-  padding-right: 15px;
+  font-size: 102%;
 }
 
 #logo-linkedin,
 #logo-gith {
-  width: 100px;
-  height: 100px;
+  width: 105px;
+  height: auto;
 }
 
 #logo-mail {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: auto;
   margin: 0px 12.5px;
 }
 
+
+/* ----------------------FOOTER---------------------- */
+/* ----------------------LINKS---------------------- */
+ul,
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  margin-top: 5px;
+}
+
+#link {
+  font-size: 160%;
+  font-weight: 600;
+  color: #ebcff5;
+}

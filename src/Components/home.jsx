@@ -13,10 +13,10 @@ const TitleHome = () => {
                             Menu
                         </button>
                         <ul id="menu-text" className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#home"> Home </a></li>
-                            <li><a className="dropdown-item" href="#about-me"> About me </a></li>
-                            <li><a className="dropdown-item" href="#portfolio"> Portfolio </a></li>
-                            <li><a className="dropdown-item" href="#contact-me"> Contact </a></li>
+                            <li><a id="drop-item" className="dropdown-item" href="#home"> Home </a></li>
+                            <li><a id="drop-item" className="dropdown-item" href="#about-me"> About me </a></li>
+                            <li><a id="drop-item" className="dropdown-item" href="#portfolio"> Portfolio </a></li>
+                            <li><a id="drop-item" className="dropdown-item" href="#contact-me"> Contact </a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,21 +33,23 @@ const TitleHome = () => {
             </section>
 
             <section id="about-me">
-                <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                <div className="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-8">
                     <div className="card">
                         <div id="body-about" className="card-body">
                             Hi there!
                             <br></br>
                             My name is Francis Carrasco and I{`'`}m a Front-end Developer recently graduated from Laboratoria Bootcamp. 💛
                             <br></br>
-                            I like to use my creativity✨ along with my logical side to create code and web pages with focus on user experience and accessibility from different devices.
+                            <br></br>
+                            like to use my creativity✨ along with my logical side to create code and web pages with focus on user experience and accessibility from different devices.
                             I have developed projects with JavaScript, React, HTML, CSS, Bootstrap, REST API. Also, I have used Node.js, Firebase/Firestore.
+                            <br></br>
                             <br></br>
                             Little Fun-Facts: 🎇
                             <br></br>
-                            - I{`'`}m a big fan of DC Comics, especially Batman 🦇 (In case you hadn{`'`}t noticed).
+                            * I{`'`}m a big fan of DC Comics, especially Batman 🦇 (In case you hadn{`'`}t noticed).
                             <br></br>
-                            - I listen to a lot of different music🎵. My favorite band is Rammstein💥, but I also listen to BLACKPINK and Queen.
+                            * I listen to a lot of different music🎵. My favorite band is Rammstein💥, but I also listen to BLACKPINK and Queen.
                         </div>
                     </div>
                 </div>
@@ -62,7 +64,7 @@ const TitleHome = () => {
                 </nav>
 
                 <section id="projects-cards" className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
-                    <div id="projects" className="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-4">
+                    <div id="projects" className="col-10 col-sm-8 col-md-8 col-lg-6 col-xl-4">
                         <button id="project-btn" type="button" className="btn" data-bs-toggle="modal" data-bs-target="#ruletaModal">
                             <div className="card">
                                 <div className="card-body">
@@ -76,7 +78,6 @@ const TitleHome = () => {
                                 <div className="modal-content">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Ruleta al azar </h1>
-                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
                                         <img src="src/Images/ruleta-md.PNG" className="card-img-top" alt="..."></img>
@@ -84,10 +85,10 @@ const TitleHome = () => {
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Vite and Vercel. </p>
                                     </div>
                                     <div className="modal-footer">
-                                        Do you want to see my project?
+                                        <p className="card-text"> Do you want to see my project? </p>
                                         <br></br>
                                         <a href="https://ruleta-al-azar.vercel.app" className="card-text">
-                                            Click me!
+                                        ✨ Click me! ✨
                                         </a>
                                         <br></br>
                                         <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -109,7 +110,6 @@ const TitleHome = () => {
                                 <div className="modal-content">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Moviefy </h1>
-                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
                                         <img src="src/Images/moviefy-home-xs.PNG" className="card-img-top" alt="..."></img>
@@ -117,10 +117,10 @@ const TitleHome = () => {
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Axios, Vite and Vercel. </p>
                                     </div>
                                     <div className="modal-footer">
-                                        Do you want to see my project?
+                                        <p className="card-text"> Do you want to see my project? </p>
                                         <br></br>
                                         <a href="https://movie-challenge-7ea8tuxub-franciscg97.vercel.app" className="card-text">
-                                            Click me!
+                                        ✨ Click me! ✨
                                         </a>
                                         <br></br>
                                         <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -142,7 +142,6 @@ const TitleHome = () => {
                                 <div className="modal-content">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Kittybook </h1>
-                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
                                         <img src="src/Images/login-kb-xs.PNG" className="card-img-top" alt="..."></img>
@@ -150,10 +149,10 @@ const TitleHome = () => {
                                         <p className="card-text"> This project was developed with HTML, JavaScript in Single Page Application -or SPA-, CSS, Firebase Auth and Firestore Database. </p>
                                     </div>
                                     <div className="modal-footer">
-                                        Do you want to see my project?
+                                        <p className="card-text"> Do you want to see my project? </p>
                                         <br></br>
                                         <a href="https://sn9-kittybook.firebaseapp.com" className="card-text">
-                                            Click me!
+                                        ✨ Click me! ✨
                                         </a>
                                         <br></br>
                                         <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -175,7 +174,6 @@ const TitleHome = () => {
                                 <div className="modal-content">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Data Ghibli Lovers </h1>
-                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
                                         <img src="src/Images/studio-g-home.PNG" className="card-img-top" alt="..."></img>
@@ -183,10 +181,10 @@ const TitleHome = () => {
                                         <p className="card-text"> This project was developed with HTML, JavaScript and CSS. </p>
                                     </div>
                                     <div className="modal-footer">
-                                        Do you want to see my project?
+                                        <p className="card-text"> Do you want to see my project? </p>
                                         <br></br>
                                         <a href="https://franciscg97.github.io/Data-Ghibli-Lovers---Data-Lovers/" className="card-text">
-                                            Click me!
+                                        ✨ Click me! ✨
                                         </a>
                                         <br></br>
                                         <button id="close" type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -205,13 +203,13 @@ const TitleHome = () => {
                     </div>
                 </nav>
 
-                <section id="contact" className="col-12 col-sm-12 col-md-4 col-lg-8 col-xl-8">
+                <section id="contact" className="col-12 col-sm-12 col-md-9 col-lg-5 col-xl-5">
                     <div id="contact-link" className="card-body">
                         <a id="linkedin" href="https://www.linkedin.com/in/francis-carrasco-gonzalez" className="card-link"> <img id="logo-linkedin" src="src/Images/logo-link.png"></img>
                             LinkedIn
                         </a>
                         <a id="github" href="https://github.com/FrancisCG97" className="card-link"> <img id="logo-gith" src="src/Images/github.png"></img>
-                            GitHub:
+                            GitHub
                         </a>
                         <p id="mail" className="card-link"> <img id="logo-mail" src="src/Images/logo-mail.png"></img>
                             f.carrasco.g.97@gmail.com
@@ -220,19 +218,19 @@ const TitleHome = () => {
                 </section>
             </section>
 
-            <section className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <section id="footer" className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <ul className="nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#home"> Home </a>
+                        <a id="link" className="nav-link" href="#home"> Home </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#about-me"> About me </a>
+                        <a id="link" className="nav-link" href="#about-me"> About me </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#portfolio"> Portfolio </a>
+                        <a id="link" className="nav-link" href="#portfolio"> Portfolio </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contact-me"> Contact </a>
+                        <a id="link" className="nav-link" href="#contact-me"> Contact </a>
                     </li>
                 </ul>
             </section>
