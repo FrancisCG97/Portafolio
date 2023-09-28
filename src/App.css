@@ -150,6 +150,16 @@ h5 {
   flex-direction: column;
 }
 
+#ruleta-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("src/Images/ruleta-md.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* ----------------------MODAL---------------------- */
 h1 {
   font-weight: 900;
