@@ -150,15 +150,54 @@ h5 {
   flex-direction: column;
 }
 
-#ruleta-image {
-  width: 100%;
+/* #ruleta-image,
+#moviefy-image,
+#kittybook-image,
+#ghibli-image {
+  width: auto;
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url("src/Images/ruleta-md.PNG");
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+  background-repeat:no-repeat;
+} */
+
+#ruletaModal {
+  width: 100%; /* Ancho del modal */
+
+  /* max-width: 1000px; Ancho máximo del modal */
+  height: 100%;
+  margin: 0 auto; /* Centrar el modal horizontalmente */
 }
+
+#ruletaModal img {
+  width: 100%; /* La imagen ocupa todo el ancho del modal */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción de aspecto */
+  /* display:grid; */
+}
+
+#ruleta-image {
+  background-image: url("src/Images/ruleta-md.PNG");
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+/* #moviefy-image {
+  background-image: url("src/Images/moviefy-home-xs.PNG");
+}
+
+#kittybook-image {
+  background-image: url("src/Images/login-kb-xs.PNG");
+}
+
+#ghibli-image {
+  background-image: url("src/Images/studio-g-home.PNG");
+} */
+
+
+
+
+
 
 /* ----------------------MODAL---------------------- */
 h1 {

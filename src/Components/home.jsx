@@ -80,7 +80,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Ruleta al azar </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img src="/src/Images/ruleta-md.PNG" id="ruleta-image" className="img-fluid"></img>
+                                        <img id="ruleta-image" src="src/Images/ruleta-md.PNG" className="img-fluid" alt="..."></img>
                                         <p className="card-text"> Ruleta al azar it{`'`}s a webpage in which the user can enter information through a file, and at the end of the roulette spin, it returns the winning object. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Vite and Vercel. </p>
                                     </div>
@@ -112,7 +112,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Moviefy </h1>
                                     </div>
                                     <div className="modal-body">
-                                        {/* <img src="src/Images/moviefy-home-xs.PNG" className="card-img-top" alt="..."></img> */}
+                                        <img id="moviefy-image" className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Moviefy it{`'`}s a webpage inspired in Internet Movie Database -or IMDB- where users can search information about movies, including: title, poster, original languaje and more. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Axios, Vite and Vercel. </p>
                                     </div>
@@ -144,7 +144,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Kittybook </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img src="src/Images/login-kb-xs.PNG" className="card-img-top" alt="..."></img>
+                                        <img id="kittybook-image" className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Kittybook it{`'`}s a Social Network by -and for- catlovers. Here you can have an user and Create, Read, Update and Delete posts. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript in Single Page Application -or SPA-, CSS, Firebase Auth and Firestore Database. </p>
                                     </div>
@@ -176,7 +176,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Data Ghibli Lovers </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img src="src/Images/studio-g-home.PNG" className="card-img-top" alt="..."></img>
+                                        <img id="ghibli-image" className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Data Ghibli Lovers it{`'`}s a webpage where users can find information about Studio Ghibli history, characters or animations. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript and CSS. </p>
                                     </div>
