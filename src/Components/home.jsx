@@ -1,6 +1,6 @@
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import ruleta from '../Images/ruleta.png';
+import ruleta from '../Images/ruleta.PNG';
 import github from "../Images/github.PNG";
 import linkedin from "../Images/linkedin.PNG";
 import loginKb from "../Images/loginKb.PNG";
