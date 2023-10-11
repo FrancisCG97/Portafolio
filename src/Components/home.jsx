@@ -54,7 +54,7 @@ const TitleHome = () => {
                             <br></br>
                             Little Fun-Facts: 🎇
                             <br></br>
-                            * I{`'`}m a big fan of DC Comics, especially Batman 🦇 (In case you hadn{`'`}t noticed).
+                            * I{`'`}m a big fan of DC Comics, especially Batman 🦇 (In case you hadn{`'`}t noticed 😅).
                             <br></br>
                             * I listen to a lot of different music🎵. My favorite band is Rammstein💥, but I also listen to BLACKPINK and Queen.
                         </div>
