@@ -7,7 +7,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #68378e;
-  background-image: url('/batLogo.png');
+  background-image: url('/src/batLogo.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
