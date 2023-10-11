@@ -1,5 +1,12 @@
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import ruleta from '../Images/ruleta.png';
+import github from "../Images/github.PNG";
+import linkedin from "../Images/linkedin.PNG";
+import loginKb from "../Images/loginKb.PNG";
+import logoMail from "../Images/logoMail.PNG";
+import moviefyHome from "../Images/moviefyHome.PNG";
+import studioG from "../Images/studioG.PNG";
 
 
 const TitleHome = () => {
@@ -80,7 +87,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Ruleta al azar </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img id="ruleta-image" src="src/Images/ruleta-md.PNG" className="img-fluid" alt="..."></img>
+                                        <img id="ruleta-image" src={ruleta} className="img-fluid" alt="..."></img>
                                         <p className="card-text"> Ruleta al azar it{`'`}s a webpage in which the user can enter information through a file, and at the end of the roulette spin, it returns the winning object. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Vite and Vercel. </p>
                                     </div>
@@ -112,7 +119,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Moviefy </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img id="moviefy-image" className="card-img-top" alt="..."></img>
+                                        <img id="moviefy-image" src={moviefyHome} className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Moviefy it{`'`}s a webpage inspired in Internet Movie Database -or IMDB- where users can search information about movies, including: title, poster, original languaje and more. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript, React, CSS, Bootstrap, Axios, Vite and Vercel. </p>
                                     </div>
@@ -144,7 +151,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Kittybook </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img id="kittybook-image" className="card-img-top" alt="..."></img>
+                                        <img id="kittybook-image" src={loginKb} className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Kittybook it{`'`}s a Social Network by -and for- catlovers. Here you can have an user and Create, Read, Update and Delete posts. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript in Single Page Application -or SPA-, CSS, Firebase Auth and Firestore Database. </p>
                                     </div>
@@ -176,7 +183,7 @@ const TitleHome = () => {
                                         <h1 className="modal-title fs-5" id="exampleModalLabel"> Data Ghibli Lovers </h1>
                                     </div>
                                     <div className="modal-body">
-                                        <img id="ghibli-image" className="card-img-top" alt="..."></img>
+                                        <img id="ghibli-image" src={studioG} className="card-img-top" alt="..."></img>
                                         <p className="card-text"> Data Ghibli Lovers it{`'`}s a webpage where users can find information about Studio Ghibli history, characters or animations. </p>
                                         <p className="card-text"> This project was developed with HTML, JavaScript and CSS. </p>
                                     </div>
@@ -205,13 +212,13 @@ const TitleHome = () => {
 
                 <section id="contact" className="col-12 col-sm-12 col-md-9 col-lg-5 col-xl-5">
                     <div id="contact-link" className="card-body">
-                        <a id="linkedin" href="https://www.linkedin.com/in/francis-carrasco-gonzalez" className="card-link"> <img id="logo-linkedin" src="src/Images/logo-link.png"></img>
+                        <a id="linkedin" href="https://www.linkedin.com/in/francis-carrasco-gonzalez" className="card-link"> <img id="logo-linkedin" src={linkedin}></img>
                             LinkedIn
                         </a>
-                        <a id="github" href="https://github.com/FrancisCG97" className="card-link"> <img id="logo-gith" src="src/Images/github.png"></img>
+                        <a id="github" href="https://github.com/FrancisCG97" className="card-link"> <img id="logo-gith" src={github}></img>
                             GitHub
                         </a>
-                        <p id="mail" className="card-link"> <img id="logo-mail" src="src/Images/logo-mail.png"></img>
+                        <p id="mail" className="card-link"> <img id="logo-mail" src={logoMail}></img>
                             f.carrasco.g.97@gmail.com
                         </p>
                     </div>
