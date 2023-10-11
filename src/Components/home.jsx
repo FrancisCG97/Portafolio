@@ -1,12 +1,12 @@
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import ruleta from '../Images/ruleta.PNG';
-import github from "../Images/github.PNG";
-import linkedin from "../Images/linkedin.PNG";
-import loginKb from "../Images/loginKb.PNG";
-import logoMail from "../Images/logoMail.PNG";
-import moviefyHome from "../Images/moviefyHome.PNG";
-import studioG from "../Images/studioG.PNG";
+import ruleta from '/src/Images/ruleta.PNG';
+import github from "/src/Images/github.png";
+import linkedin from "/src/Images/linkedin.png";
+import loginKb from "/src/Images/loginKb.PNG";
+import logoMail from "/src/Images/logoMail.png";
+import moviefyHome from "/src/Images/moviefyHome.PNG";
+import studioG from "/src/Images/studioG.PNG";
 
 
 const TitleHome = () => {
