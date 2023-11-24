@@ -48,7 +48,7 @@ const TitleHome = () => {
                             My name is Francis Carrasco and I{`'`}m a Front-end Developer recently graduated from Laboratoria Bootcamp. 💛
                             <br></br>
                             <br></br>
-                            like to use my creativity✨ along with my logical side to create code and web pages with focus on user experience and accessibility from different devices.
+                            I like to use my creativity✨ along with my logical side to create code and web pages with focus on user experience and accessibility from different devices.
                             I have developed projects with JavaScript, React, HTML, CSS, Bootstrap, REST API. Also, I have used Node.js, Firebase/Firestore.
                             <br></br>
                             <br></br>
