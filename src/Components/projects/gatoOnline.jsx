@@ -1,4 +1,4 @@
-import gato from "../../Images/gatoOnline.png";
+import gato from "src/Images/gatoOnline.PNG";
 
 export const GatoOnline = () => {
   return (
