@@ -151,6 +151,61 @@ h5 {
 }
 
 
+/* ----------------------CERTIFICATIONS---------------------- */
+/* ----------------------CREDENTIALS---------------------- */
+h5 {
+  font-size: 150%;
+  font-weight: 900;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  background-color: #ebcff5;
+}
+
+#title-portfolio {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-weight: 700;
+  font-size: 180%;
+  color: #fff0ff;
+  text-shadow: 0 0 10px #4b1c71, 0 0 10px #4b1c71;
+}
+
+#projects-cards {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#project-btn {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0%;
+  border-style: solid;
+  border-color: #4b1c71;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 
 /* ----------------------MODAL---------------------- */
 h1 {
