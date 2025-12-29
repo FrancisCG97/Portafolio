@@ -3,6 +3,7 @@ import { Moviefy } from "../projects/Moviefy";
 import { KittyBook } from "../projects/KittyBook";
 import { Ghibli } from "../projects/Ghibli";
 import { GatoOnline } from "../projects/gatoOnline";
+import { ListaTareas } from "../projects/ListaTareas";
 
 export const Projects = () => {
   return (
@@ -25,6 +26,7 @@ export const Projects = () => {
           id="projects"
           className="col-10 col-sm-8 col-md-8 col-lg-6 col-xl-4"
         >
+
           <button
             id="project-btn"
             type="button"
@@ -104,6 +106,22 @@ export const Projects = () => {
           </button>
 
           <Ghibli />
+
+                    <button
+            id="project-btn"
+            type="button"
+            className="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#listaTareasModal"
+          >
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title"> Lista de tareas simple </h5>
+              </div>
+            </div>
+          </button>
+
+          <ListaTareas />
         </div>
       </section>
     </section>
