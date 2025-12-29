@@ -1,4 +1,4 @@
-import lista from "../../Images/listaTareas.PNG";
+import lista from "../../Images/listaTareas.png";
 
 export const ListaTareas = () => {
   return (
